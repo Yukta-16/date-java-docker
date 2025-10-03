@@ -19,32 +19,24 @@ date-java-docker/
 
 **1. Clone the repository**
 
-```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-```
+
 
 **2. Build the Docker image**
 
-```bash
 docker build -t date-java .
-```
+
 
 ** 3. Run the container**
 
-
 docker run --name date-container date-java
-```
 
 ✅ Example output:
 
-```
 Current Date and Time: 2025-10-03 15:40:22
-```
 
----
-
-## 🐳 Docker Commands Recap
+**🐳 Docker Commands Recap**
 
 * `docker build -t date-java .` → Builds an image named `date-java`
 * `docker run --name date-container date-java` → Runs the image inside a container
