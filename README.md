@@ -17,22 +17,22 @@ date-java-docker/
 
 **🚀 How to Run**
 
-### 1. Clone the repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-### 2. Build the Docker image
+**2. Build the Docker image**
 
 ```bash
 docker build -t date-java .
 ```
 
-### 3. Run the container
+** 3. Run the container**
 
-```bash
+
 docker run --name date-container date-java
 ```
 
