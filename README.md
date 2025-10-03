@@ -53,7 +53,3 @@ Current Date and Time: 2025-10-03 15:40:22
 
 * Building Docker images
 * Running and managing containers
-
----
-
-Would you like me to also add a **section for "Future Enhancements"** (like printing time every 5 seconds, exposing port, or pushing to DockerHub) to make your README look more complete?
